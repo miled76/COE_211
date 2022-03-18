@@ -1,0 +1,15 @@
+public class AdvancedWeek {
+           private int index=1;
+          private String day1="Monday";
+          private String day2="Tuesday";
+           privateString day3="Wednesday";
+          private String day4="thursday";
+          private String day5="Friday";
+           privateString day6="Saturday";
+          private String day7="Sunday";
+
+    
+    public void printDays() {
+        System.out.println(index+":" + day1 + ",\n"  + (++index)+":" +day2+ ",\n" + (++index)+":" +day3+"\n"+(++index)+":"+day4+",\n"+(++index)+":"+day5+",\n"+(++index)+":"+day6+",\n"+(++index)+":"+day7+",\n" );
+    }
+}
